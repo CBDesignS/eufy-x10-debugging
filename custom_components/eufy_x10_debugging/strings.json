@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Eufy X10 Pro Omni Debugging Setup",
+        "description": "Configure your Eufy X10 Pro Omni for debugging REST API data.",
+        "data": {
+          "username": "Eufy Account Username",
+          "password": "Eufy Account Password",
+          "device_id": "Device ID (Serial Number)",
+          "debug_mode": "Enable Debug Logging"
+        }
+      }
+    },
+    "error": {
+      "invalid_username": "Invalid username provided",
+      "invalid_password": "Invalid password provided", 
+      "invalid_device_id": "Invalid device ID provided",
+      "cannot_connect": "Failed to connect to Eufy API",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Eufy X10 Debug Options",
+        "data": {
+          "debug_mode": "Enable Debug Logging"
+        }
+      }
+    }
+  }
+}
